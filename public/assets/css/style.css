@@ -1,3 +1,23 @@
 body {
-  
+  background-image: url("/images/image.jpg");
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#title h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    color: rgb(168, 2, 2);
+    font-size: 50px;
+}
+
+#burger_name{
+    font-family: 'Germania One', cursive;
+    color: green;
+    font-size: 20px;
+}
+
+#fancy {
+    font-family: 'Fontdiner Swanky', cursive;
+    color: rgb(168, 2, 2);
+    font-size: 35px;
 }
