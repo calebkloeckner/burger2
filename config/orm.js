@@ -8,7 +8,7 @@ var orm = {
     })
   },
 
-  update: function(tableInput, condition, cb) {
+  update: function(tableInput, condition, cb, devoured) {
     connection.query("UPDATE "+tableInput+" SET devoured=true WHERE id="+condition+";", function(error, result){
       if(error)throw error;
       cb(result);
